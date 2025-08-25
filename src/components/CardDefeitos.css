@@ -62,3 +62,14 @@
   font-size: 2em;
   margin: 10px 0;
 }
+
+
+.pDefeito {
+  color: #878585;
+  font-size: 18px;
+}
+
+.ocultarParagrafo {
+  display: none;
+  visibility: hidden;
+}
