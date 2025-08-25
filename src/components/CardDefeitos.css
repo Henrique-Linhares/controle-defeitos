@@ -1,0 +1,64 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contador-verde {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.contador-amarelo {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.contador-vermelho {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  max-width: 300px;
+  background-color: #fff;
+  justify-content: space-between;
+  min-height: 200px;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.descricao {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.buttonAdd {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.buttonAdd:hover {
+  background-color: #0056b3;
+}
+
+.contador {
+  font-size: 2em;
+  margin: 10px 0;
+}
